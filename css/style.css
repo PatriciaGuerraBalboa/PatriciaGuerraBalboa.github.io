@@ -40,13 +40,15 @@
 @import url(jquery-ui.css);
 @import url(nice-select.css);
 
+/* coffee section start */
+
 .coffee_section {
     width: 100%;
     float: left;
 }
 
 .coffee_taital {
-    width: 50%;
+    width: 100%;
     float: left;
     font-size: 40px;
     color: #3b3b3b;
@@ -57,18 +59,18 @@
 }
 
 .coffee_section_2 {
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
     padding-top: 40px;
 }
 
 .coffee_img img {
-    width: 50%;
+    width: 100%;
     float: left;
 }
 .coffee_box {
-    width: 50%;
+    width: 100%;
     float: left;
     background-color: #242c2f;
     height: auto;
@@ -79,7 +81,7 @@
 }
 
 .types_text {
-    width: 50%;
+    width: 100%;
     float: left;
     font-size: 22px;
     color: #fefefd;
@@ -88,7 +90,7 @@
 }
 
 .looking_text {
-    width: 50%;
+    width: 100%;
     float: left;
     font-size: 14px;
     color: #fefefd;
@@ -105,7 +107,7 @@
 }
 
 .read_bt a {
-    width: 50%;
+    width: 100%;
     float: left;
     font-size: 16px;
     color: #fefefd;
