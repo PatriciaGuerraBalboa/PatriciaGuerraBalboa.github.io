@@ -85,8 +85,8 @@ button{
 
 .item {
   scroll-snap-align: center;
-  min-width: 120px;
-  height: 120px;
+  min-width: 360px;
+  height: 360px;
   background-color: deeppink;
   border-radius:8px;
 }
