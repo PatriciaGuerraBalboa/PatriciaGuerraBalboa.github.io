@@ -46,7 +46,7 @@
 }
 
 .coffee_taital {
-    width: 100%;
+    width: 50%;
     float: left;
     font-size: 40px;
     color: #3b3b3b;
@@ -79,7 +79,7 @@
 }
 
 .types_text {
-    width: 100%;
+    width: 50%;
     float: left;
     font-size: 22px;
     color: #fefefd;
@@ -88,7 +88,7 @@
 }
 
 .looking_text {
-    width: 100%;
+    width: 50%;
     float: left;
     font-size: 14px;
     color: #fefefd;
@@ -105,7 +105,7 @@
 }
 
 .read_bt a {
-    width: 100%;
+    width: 50%;
     float: left;
     font-size: 16px;
     color: #fefefd;
