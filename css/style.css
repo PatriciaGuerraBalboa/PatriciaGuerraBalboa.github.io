@@ -28,130 +28,68 @@
 
 /* coffee section start */
 
-@import url(animate.min.css);
-@import url(normalize.css);
-@import url(icomoon.css);
-@import url(css/font-awesome.min.css);
-@import url(meanmenu.css);
-@import url(owl.carousel.min.css);
-@import url(swiper.min.css);
-@import url(slick.css);
-@import url(jquery.fancybox.min.css);
-@import url(jquery-ui.css);
-@import url(nice-select.css);
-
-/* coffee section start */
-
-.coffee_section {
-    width: 100%;
-    float: left;
+button{
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: none;
+    transition: all .3s ease-in-out;
 }
 
-.coffee_taital {
-    width: 100%;
-    float: left;
-    font-size: 40px;
-    color: #3b3b3b;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
-    padding-bottom: 0px;
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
 }
 
-.coffee_section_2 {
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 40px;
+.carousel-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 44px 0;
+  transition: all 0.25s ease-in;
 }
 
-.coffee_img img {
-    width: 100%;
-    float: left;
-}
-.coffee_box {
-    width: 100%;
-    float: left;
-    background-color: #242c2f;
-    height: auto;
-    padding: 20px 20px;
-}
-.coffee_box:hover {
-    background-color: #f01c1c;
-}
-
-.types_text {
-    width: 100%;
-    float: left;
-    font-size: 22px;
-    color: #fefefd;
-    text-align: center;
-    font-weight: bold;
+.carousel-view .item-list {
+  max-width: 950px;
+  width: 70vw;
+  padding: 50px 10px;
+  display: flex;
+  gap: 48px;
+  scroll-behavior: smooth;
+  transition: all 0.25s ease-in;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow: auto;
+  scroll-snap-type: x mandatory;
 }
 
-.looking_text {
-    width: 100%;
-    float: left;
-    font-size: 14px;
-    color: #fefefd;
-    text-align: center;
-    margin: 0px;
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.item-list::-webkit-scrollbar {
+  display: none;
 }
 
-.read_bt {
-    width: 150px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 20px;
-    display: flex;
+.prev-btn {
+  background = none;
+  cursor: pointer;
 }
 
-.read_bt a {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #fefefd;
-    text-align: center;
-    border-radius: 5px;
-    border: 1px solid #fefefd;
-    text-transform: uppercase;
-    padding: 8px;
+.next-btn {
+  cursor: pointer;
 }
 
-.read_bt a:hover {
-    color: #fefefd;
-    border: 1px solid #fefefd;
+.item {
+  scroll-snap-align: center;
+  min-width: 120px;
+  height: 120px;
+  background-color: deeppink;
+  border-radius:8px;
 }
-
-#main_slider a.carousel-control-prev {
-    left: -50px;
-    top: 170px;
-}
-
-#main_slider a.carousel-control-next {
-    right: -50px;
-    top: 170px;
-
-}
-
-#main_slider .carousel-control-next,
-#main_slider .carousel-control-prev {
-    width: 55px;
-    height: 55px;
-    opacity: 1;
-    font-size: 16px;
-    color: #fefefd;
-    background-color: #4a4949;
-}
-
-#main_slider .carousel-control-next:focus,
-#main_slider .carousel-control-next:hover,
-#main_slider .carousel-control-prev:focus,
-#main_slider .carousel-control-prev:hover {
-    color: #fefefd;
-    background-color: #f01c1c;
-}
-
 
 /* coffee section end */
 /*------------------------------------------------------------------------------------------*/
