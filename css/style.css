@@ -26,28 +26,6 @@
 7. Footer
 
 
-/* Science Comunication Archive */
-
-.news-element figure picture img {
-    width: 100%;
-}
-.news-element {
-    position: relative;
-    height: 100%;
-    margin-bottom: 6em;
-}
-.news-element .link {
-	bottom: 3em;
-    position: absolute;
-    width: 100%;
-    padding-right: 1.5em;
-    overflow: hidden;
-	display: -webkit-inline-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-	padding-bottom: 0;
-}
- 
 /*------------------------------------------------------------------------------------------*/
 /* 1. Defaults & Reset of specific styles across browsers */
 /*------------------------------------------------------------------------------------------*/
