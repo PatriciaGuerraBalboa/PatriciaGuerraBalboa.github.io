@@ -30,45 +30,6 @@
 /* 1. Defaults & Reset of specific styles across browsers */
 /*------------------------------------------------------------------------------------------*/
 
-figure.watermark {
-    position: relative
-}
-
-figure.watermark picture {
-    position: relative;
-    display: inline-block;
-    max-width: 100%
-}
-
-figure.watermark picture:before {
-    content: '';
-    position: absolute;
-    top: 85%;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.7)), to(transparent));
-    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), transparent);
-    background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.7), transparent);
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent)
-}
-
-figure.watermark span.watermark {
-    position: absolute;
-    right: 0.625rem;
-    bottom: 0.625rem;
-    padding-left: 0.625rem;
-    color: #fff;
-    font-size: 0.9rem;
-    line-height: 1.1;
-    text-align: right
-}
-
-figure.watermark span.watermark:before {
-    content: '© '
-}
-
-
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
