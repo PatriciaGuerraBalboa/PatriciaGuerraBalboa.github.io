@@ -1020,6 +1020,19 @@ blockquote {
     top: 50%;
     left: 50%;
 }
+gallery.watermark {
+    position: relative
+}
+gallery.watermark span.watermark {
+    position: absolute;
+    right: 0.625rem;
+    bottom: 0.625rem;
+    padding-left: 0.625rem;
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 1.1;
+    text-align: right
+}
 
 /**
  * Featherlight – ultra slim jQuery lightbox
